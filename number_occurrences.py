@@ -12,6 +12,9 @@ def occurrences():
     
     else: #si no se cumple de que myArray[i] == posicion:
       posicion = myArray[i]
+
+    if longest <=2:
+       longest+1
   
 
   print("number:",number, "ocurrencias:", longest)
